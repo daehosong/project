@@ -9,7 +9,7 @@ public class WebConfig implements WebMvcConfigurer {
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {		
 		registry.addResourceHandler("/images/**")
-		.addResourceLocations("file:///C:/springWorkspace/product_images/");
+		.addResourceLocations("file:///usr/local/project/product_images/");
 //				,"file:///C:/springWorkspace/upload/");
 	// upload 폴더 경로 설정 (동일한 이름 / images 사용)
 
